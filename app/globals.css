@@ -1,0 +1,153 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+.sm-text {
+  font-size: 10px;
+}
+
+li:hover {
+  transform: scale(1.1);
+  border-bottom: 2px solid black;
+  font-weight: bolder;
+}
+
+button {
+  background-color: black;
+  padding: 3px;
+  border-radius: 20px;
+  color: white;
+  border: 1px solid black;
+}
+
+button:hover {
+  transition: all 350ms ease-in-out;
+  transform: scale(1.2);
+  display: absolute;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  font-weight: bolder;
+}
+
+#why {
+  margin-top: 30px;
+  font-size: 30px;
+  text-align: center;
+}
+
+#why>img {
+  height: 50px;
+  display: inline-block;
+}
+
+#stats-grid {
+  margin: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+#stats-grid p {
+  position: relative;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-bottom: 5px;
+}
+
+#stats-grid span {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: -1;
+  left: 16%;
+  bottom: 5%;
+}
+
+#O-1 {
+  background-color: #d1f884;
+}
+
+#O-2 {
+  background-color: #fdbfdd;
+}
+
+#O-3 {
+  background-color: #abe6f3;
+}
+
+#O-4 {
+  background-color: #fbc899;
+}
+
+#cards {
+  /* height: 70vh; */
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8%;
+}
+
+#cards>* {
+  margin: 10px 0;
+  width: 25vw;
+  max-width: 300px;
+  height: 26.5vw;
+  max-height: 300px;
+  border-radius: 10px;
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  align-items: center;
+}
+
+#cards>div:nth-child(1) {
+  background-color: #d3f984;
+}
+
+#cards>div:nth-child(2) {
+  background-color: #f1f1f1;
+}
+
+#cards>div:nth-child(3) {
+  background-color: #a7e8f6;
+}
+
+#cards>div:nth-child(4) {
+  background-color: #fdbedd;
+}
+
+#cards>div:nth-child(5) {
+  background-color: #fbc899;
+}
+
+#cards img {
+
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.drop-btn{
+  height: 50%;
+  background-color: transparent;
+  color: black;
+  
+}
+
+.question{
+  padding: 2px;
+  border-bottom: 2px solid black;
+  margin-bottom: 5px;
+}
+
+.question >p{
+  display: none;
+  font-size:10px;
+}
