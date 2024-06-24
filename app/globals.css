@@ -11,6 +11,10 @@ body {
   font-size: 10px;
 }
 
+.md-text{
+  font-size: 15px;
+}
+
 li:hover {
   transform: scale(1.1);
   border-bottom: 2px solid black;
@@ -150,4 +154,30 @@ button:hover {
 .question >p{
   display: none;
   font-size:10px;
+}
+
+#features > *{
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+#input{
+  display: flex;
+  justify-content: space-between;
+}
+#input>input{
+  border-bottom:2px solid rgb(255, 255, 255);
+  background-color: black;
+}
+#input>input:focus{
+  outline: none;
+}
+#input>button{
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+#input>button:hover{
+  transform: scale(1);
 }

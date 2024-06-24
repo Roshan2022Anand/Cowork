@@ -4,7 +4,7 @@ import React from 'react'
 function Header() {
     return (
         <>
-            <nav className='flex justify-between p-1'>
+            <nav className='flex justify-between p-1 mb-5'>
                 <div>COWORK</div>
                 <ul className='flex justify-evenly w-2/3'>
                     <li><Link href="./">Home</Link></li>
